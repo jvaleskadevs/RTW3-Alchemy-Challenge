@@ -3,9 +3,11 @@
 
 Challenge from Alchemy University: https://university.alchemy.com/ | https://twitter.com/AlchemyLearn
 
-- Challenge completed by: David from J Valeska Devs
+- Challenge Link: https://docs.alchemy.com/docs/how-to-develop-an-nft-smart-contract-erc721-with-alchemy
 
-- Contract address: 0x2bCcD3F7f91974E3c1acd15cBC32F9861c97E869
+- Challenge Completed by: David from J Valeska Devs
+
+- Contract Address: 0x2bCcD3F7f91974E3c1acd15cBC32F9861c97E869
 
 - Etherscan Contract Link: https://goerli.etherscan.io/address/0x2bccd3f7f91974e3c1acd15cbc32f9861c97e869
 
