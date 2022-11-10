@@ -11,11 +11,16 @@ contract HaHaHaHa is ERC721, ERC721Enumerable, ERC721URIStorage {
 
     Counters.Counter private _tokenIdCounter;
     uint256 MAX_SUPPLY = 10000;
+    uint256 MAX_PER_WALLET = 5;
+
+    mapping(address => uint256) walletToMintedBalance;
 
     constructor() ERC721("HaHaHaHa", "HAHA") {}
 
     function safeMint(address to, string memory uri) public {
-        require(_tokenIdCounter.current() <= MAX_SUPPLY, "SOLD OUT. NOT HA.");
+        require(_tokenIdCounter.current() < MAX_SUPPLY, "SOLD OUT. NO MORE HA.");
+        require(walletToMintedBalance[to] < MAX_PER_WALLET, "Enough HA for you.");
+        walletToMintedBalance[to] += 1;
         uint256 tokenId = _tokenIdCounter.current();
         _tokenIdCounter.increment();
         _safeMint(to, tokenId);
