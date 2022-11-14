@@ -135,9 +135,9 @@ const Home = () => {
     			className={"disabled:bg-slate-500 text-white bg-violet-500 px-4 py-2 mt-3 rounded-sm w-1/5"}
     			onClick={() => { 
     					setIsFirst(true)
-							onClickLetsGo()
+					onClickLetsGo()
     				}
-  				}
+  			}
   			>
     			Let's go! 
   			</button>
