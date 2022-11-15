@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { NFTCard } from "./components/nftCard"
+import NFTCard from "./components/nftCard"
 // React Component to manage pagination in a modern way using a pull down system to load more elements
 import InfiniteScroll from "react-infinite-scroll-component";
 
