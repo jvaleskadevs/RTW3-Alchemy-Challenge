@@ -1,6 +1,6 @@
 import { FaCopy } from 'react-icons/fa'
 
-const NFTCard = ({ nft }) => {
+export const NFTCard = ({ nft }) => {
 
     return (
         <div className="w-1/4 flex flex-col ">
@@ -38,4 +38,3 @@ const NFTCard = ({ nft }) => {
     )
 }
 
-export default NFTCard;
