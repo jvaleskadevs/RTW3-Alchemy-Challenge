@@ -27,7 +27,7 @@ This is the 5 Challenge for Alchemy Road To Web3, an NFT minting contract using 
 - As said before, I'm an enthusiast, I want to learn everything I can about Web3 developing. And of course, launch some NFTs out there.
 
 ### - When did you complete the project?
-- 10th November 2022
+- 16th November 2022
 
 ### - What technologies did you use?
 - Alchemy, OpenZeppelin, REMIX, MetaMask, OpenSea, Goerli, ChainLink, IPFS
