@@ -127,7 +127,7 @@ contract NFTMarketplace is ERC721URIStorage {
 			true
 		);
 	}
-	
+/*	
 	// This will allow to update the price of listed NFTs
 	function updateListedTokenPrice(uint256 tokenId, uint256 price) public payable {
 		// Make sure the user is the seller of the NFT he/she want to update
@@ -151,7 +151,7 @@ contract NFTMarketplace is ERC721URIStorage {
 			true
 		);
 	}
-	
+*/	
 	// This will return all the NFTs on the marketplace
 	function getAllNFTs() public view returns (ListedToken[] memory) {
 		uint nftCount = _tokenIds.current();
