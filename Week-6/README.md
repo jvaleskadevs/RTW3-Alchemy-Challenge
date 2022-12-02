@@ -1,22 +1,20 @@
-# Week 5
-## Connect APIs to your Smart Contracts using Chainlink
+# Week 6
+## How to Build a Staking Dapp
 
 Challenge from Alchemy University: https://university.alchemy.com/ | https://twitter.com/AlchemyLearn
 
-- Challenge Link: https://docs.alchemy.com/docs/5-connect-apis-to-your-smart-contracts-using-chainlink
+- Challenge Link: https://docs.alchemy.com/docs/how-to-build-a-staking-dapp
 
 - Challenge Completed by: David from J Valeska Devs
 
-- Contract Address: 0x5fBec220db60e1C59A2f12a1e972477F018a0807
+- Github Contracts Link: https://github.com/jvaleskadevs/RTW3-Alchemy-Challenge/tree/main/Week-6/challenge-1-decentralized-staking/packages/hardhat/contracts
 
-- Etherscan Contract Link: https://goerli.etherscan.io/address/0x5fBec220db60e1C59A2f12a1e972477F018a0807#code
-
-- Opensea Collection Link: https://testnets.opensea.io/collection/bullandbear-v3
+- Github App.jsx Link: https://github.com/jvaleskadevs/RTW3-Alchemy-Challenge/blob/main/Week-6/challenge-1-decentralized-staking/packages/react-app/src/App.jsx
 
 
 ## Description
 
-This is the 5 Challenge for Alchemy Road To Web3, an NFT minting contract using dynamic data from chainlink oracles.
+This is the 6 Challenge for Alchemy Road To Web3, just a little staking dApp.
 
 ## Questions
 
@@ -27,16 +25,16 @@ This is the 5 Challenge for Alchemy Road To Web3, an NFT minting contract using 
 - As said before, I'm an enthusiast, I want to learn everything I can about Web3 developing. And of course, launch some NFTs out there.
 
 ### - When did you complete the project?
-- 16th November 2022
+- 18th November 2022
 
 ### - What technologies did you use?
-- Alchemy, OpenZeppelin, REMIX, MetaMask, OpenSea, Goerli, ChainLink, IPFS
+- Scaffold-eth
 
 ### - What did you enjoy about the tutorial?
 - I love to learn about coding, I enjoyed the whole tutorial.
 
 ### - How do you think you can use this technology to build useful applications in the future? What are some specific example applications?
-- Create dynamic NFTs based on off-chain data and games using VRF.
+- Create some DeFi systems.
 
 ### - Who would you recommend this project to?
 - Everyone trying to learn about web3 after get some coding basic skills.
